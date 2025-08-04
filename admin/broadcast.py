@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 from config import OWNER_ID
-from main import bot
+from bot import bot
 from database.mongodb import db
 from pyrogram.errors import FloodWait, PeerIdInvalid
 import asyncio
