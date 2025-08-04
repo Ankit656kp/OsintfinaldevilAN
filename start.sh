@@ -1,4 +1,3 @@
 #!/bin/bash
-echo "Starting Devil OSINT Bot locally..."
-pip install -r requirements.txt
+echo "Starting Devil OSINT Bot..."
 python3 bot.py
