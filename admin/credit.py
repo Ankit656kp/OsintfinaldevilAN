@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 from config import OWNER_ID
-from main import bot
+from bot import bot
 from database.mongodb import db
 
 @bot.on_message(filters.command("addcredit") & filters.user(OWNER_ID))
