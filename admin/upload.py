@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import Message
-from main import bot
+from bot import bot
 from config import OWNER_ID
 from utils.parser import parse_uploaded_file
 from database.mongodb import data_col
