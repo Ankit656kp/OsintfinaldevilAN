@@ -1,0 +1,36 @@
+{
+  "name": "Devil OSINT Bot",
+  "description": "A powerful OSINT tool bot with phone and Aadhaar lookup, admin panel, and MongoDB support.",
+  "repository": "https://github.com/yourusername/devil_osint_bot",
+  "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API HASH",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token",
+      "required": true
+    },
+    "MONGO_URL": {
+      "description": "MongoDB connection string",
+      "required": true
+    },
+    "DEV_USERNAME": {
+      "description": "Your Telegram Username (for Developer Button)",
+      "required": true
+    },
+    "SUPPORT_GROUP": {
+      "description": "Link to support group/channel",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
