@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import CallbackQuery
-from main import bot
+from bot import bot
 
 @bot.on_callback_query(filters.regex("phone_lookup"))
 async def phone_lookup_handler(client, callback_query: CallbackQuery):
