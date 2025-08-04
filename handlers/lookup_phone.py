@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import Message
-from main import bot
+from bot import bot
 from database.mongodb import users_col, data_col
 from utils.helper import format_result, check_credits, deduct_credit
 
