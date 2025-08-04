@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from config import DEV_USERNAME, SUPPORT_GROUP
-from main import bot
+from bot import bot
 from database.mongodb import users_col
 
 @bot.on_message(filters.command("start"))
